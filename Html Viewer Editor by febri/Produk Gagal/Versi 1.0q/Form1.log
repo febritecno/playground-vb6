@@ -1,0 +1,3 @@
+Line 27: Class MSComDlg.CommonDialog of control CommonDialog1 was not a loaded control class.
+Line 34: Class SHDocVwCtl.WebBrowser of control WebBrowser1 was not a loaded control class.
+Line 59: Class RichTextLib.RichTextBox of control RichTextBox1 was not a loaded control class.

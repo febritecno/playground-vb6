@@ -1,0 +1,20 @@
+Dim sFile As String
+
+ 
+With CommonDialog1
+        .DialogTitle = "Open Media..."
+        .CancelError = False
+        .Filter = "All Suported Files"
+        .ShowOpen
+        If Len(.FileName) = 0 Then
+                Exit Sub
+        End If
+        sFile = .FileName
+        
+With List1
+          .AddItem sFile
+End With
+End With
+
+
+Read more: http://forum.codecall.net/topic/44697-vb-60-creating-a-media-player-video-player/#ixzz2EWVSfEG0
